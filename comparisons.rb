@@ -65,7 +65,7 @@ puts 4 < 9
 # statement is 4 < 9, which is true. So we should expect an output of True.
 
 books = 3
-puts 4 < books
+puts books > 3
 # YOU DO: Explain.
 # The first line sets the varibale books equal to the integer three. The next line checks to see if four is less than
 # books, which is three. We expect an output of False.

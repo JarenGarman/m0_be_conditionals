@@ -7,20 +7,21 @@
 
 # Example: Using the weather variable below, write code that decides
 # what you should take with you based on the following conditions:
-  # if it is sunny, print "sunscreen"
-  # if it is rainy, print "umbrella"
-  # if it is snowy, print "coat"
-  # if it is icy, print "yak traks"
+# if it is sunny, print "sunscreen"
+# if it is rainy, print "umbrella"
+# if it is snowy, print "coat"
+# if it is icy, print "yak traks"
 
 weather = 'sunny'
 
-if weather == 'sunny'
+case weather
+when 'sunny'
   p 'sunscreen'
-elsif weather == 'rainy'
+when 'rainy'
   p 'umbrella'
-elsif weather == 'snowy'
+when 'snowy'
   p 'coat'
-elsif weather == 'icy'
+when 'icy'
   p 'yak traks'
 else
   p 'good to go!'
